@@ -92,9 +92,14 @@ input, select, textarea {
 	}
 
 	#header-content {
-		background-color: rgba(255, 255, 255, 0.5);
+		background-color: rgba(255, 255, 255, 0.75);
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+
+	#header-content h1 {
+		color: #138bd2
+
 	}
 
 /* Basic */
@@ -3726,7 +3731,16 @@ input, select, textarea {
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		color: #138bd2;
 	}
+
+		#footer dt {
+			color: #138bd2;
+		}
+
+		#footer h2 {
+			color: #138bd2;
+		}
 
 		#footer > * {
 			width: calc(50% - 2em);
