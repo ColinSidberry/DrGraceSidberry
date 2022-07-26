@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	/* background-image: url('../../images/Beach-w-sunset.jpg'); */
 }
 
 ol, ul {
@@ -90,6 +91,12 @@ input, select, textarea {
 		border-radius: 25px;
 	}
 
+	#header-content {
+		background-color: rgba(255, 255, 255, 0.5);
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -118,10 +125,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3092,6 +3099,14 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+		width: 100%;
+		background-image: url('../../images/Beach-w-sunset.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		/* border: lightblue;
+		border-width: 500px; */
+		color: black
 	}
 
 		#header h1 {
