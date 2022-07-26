@@ -125,10 +125,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #eacdb6 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #b9d8ed 15%, #e4eae7 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #b9d8ed 15%, #e4eae7 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #b9d8ed 15%, #e4eae7 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #b9d8ed 15%, #e4eae7 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3100,7 +3100,7 @@ input, select, textarea {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
 		width: 100%;
-		background-image: url('../../images/Beach-w-sunset.jpg');
+		background-image: url('../../images/beach-no-sunset.jpg');
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
