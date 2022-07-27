@@ -98,8 +98,8 @@ input, select, textarea {
 	}
 
 	#header-content h1 {
-		color: #138bd2
-
+		color: #138bd2;
+		letter-spacing: 10px;
 	}
 
 /* Basic */
@@ -3109,8 +3109,6 @@ input, select, textarea {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
-		/* border: lightblue;
-		border-width: 500px; */
 		color: black
 	}
 
@@ -3120,7 +3118,7 @@ input, select, textarea {
 
 		#header p {
 			font-size: 1.25em;
-			letter-spacing: -0.025em;
+			letter-spacing: 1px;
 		}
 
 		#header.alt {
