@@ -91,6 +91,10 @@ input, select, textarea {
 		border-radius: 25px;
 	}
 
+	#header p {
+		
+	}
+
 	#header-content {
 		background-color: rgba(255, 255, 255, 0.75);
 		padding-top: 20px;
@@ -100,6 +104,24 @@ input, select, textarea {
 	#header-content h1 {
 		color: #138bd2;
 		letter-spacing: 10px;
+	}
+
+	#about .image {
+		display: inline-block;
+		padding: 0.65em;
+		border-radius: 100%;
+		border: solid 1px;
+		border-color: #e4eae7;
+	}
+
+		#about .image img {
+			display: block;
+			border-radius: 100%;
+			width: 16em;
+		}
+
+	#insurance {
+		margin-top: 3em;
 	}
 
 /* Basic */
@@ -3033,6 +3055,7 @@ input, select, textarea {
 			padding: 0.65em;
 			border-radius: 100%;
 			border: solid 1px;
+			border-color: #e4eae7;
 		}
 
 			.spotlight .image img {
